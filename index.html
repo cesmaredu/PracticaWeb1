@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica Web 1</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body class="bg-dark text-white">
+
+    <!-- Barra de navegacion -->
+    <nav class="navbar navbar-dark navbar-expand-lg bg-dark">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand">Practica 1</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="navi-tem"><a href="#ej1" class="nav-link">Ejercicio 1</a></li>
+                    <li class="navi-tem"><a href="#ej2" class="nav-link">Ejercicio 2</a></li>
+                    <li class="navi-tem"><a href="#ej3" class="nav-link">Ejercicio 3</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Fin del NavBar -->
+
+    <!-- Contenedor Principal -->
+    <div class="container-fluid">
+
+        <!-- Contenedor Ejercicio 1 -->
+        <div class="container" id="ej1">
+            <div class="mb-2">
+                <h1 class="display-1 text-primary text-center">
+                    Ejercicio 1 - Suma de dos numeros enteros
+                </h1>
+            </div>
+            <div class="my-2">
+                <form>
+                    <div class="mb-2">
+                        <label for="txtNum1" class="form-label">Escriba el numero 1: </label>
+                        <input type="number" class="form-control" name="txtNum1" id="txtNum1">
+                    </div>
+                    <div class="mb-2">
+                        <label for="txtNum2" class="form-label">Escriba el numero 2: </label>
+                        <input type="number" class="form-control" name="txtNum2" id="txtNum2">
+                    </div>
+                    <div class="mb-2">
+                        <button class="btn btn-success" type="button" onclick="Sumar()">Sumar</button>
+                    </div>
+                    <div class="mb-2">
+                        <label class="form-label text-center" id="txtResultado">Resultado: </label>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!-- Contenedor del Ejercicio 2 -->
+        <div class="container" id="ej2">
+
+        </div>
+
+        <!-- Contenedor del Ejericio 3 -->
+        <div class="container" id="ej3">
+            
+        </div>
+
+    </div>
+
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/excersices.js"></script>
+</body>
+</html>
