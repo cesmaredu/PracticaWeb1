@@ -92,7 +92,32 @@
 
         <!-- Contenedor del Ejericio 3 -->
         <div class="container" id="ej3">
-            
+            <h1 class="text-center display-1 text-primary">
+                 Calculo del Salario Nicaragüense.
+                 </h1>
+                  <form class="text-white"> 
+                    <div class="form-text mb-2">
+                         El calculo del salario en Nicaragua se divide en dos partes, primero se
+                          calcula el <code>INSS</code> que es el <strong>7%</strong> del salario base.
+                           Luego calculamos el <code>IR</code>, que dependiendo del excedente anual el valor varía.
+                            Al restarle estos datos al salario base obtenemos nuestro Salario Neto.
+                </div>
+                 <div class="form-floating mb-3"> 
+                    <input class="form-control" id="inputSalario" placeholder="Ingrese el salario">
+                     <label for="inputSalario" class="text-secondary">Salario</label>
+                     </div>
+                      <div class="mb-3">
+                         <button type="button" class="btn btn-success" onclick="CalcularSalario()">Calcular Salario</button>
+                         </div>
+                          <div class="mb-3">
+                             <label id="txtINSS" class="form-label">INSS: </label>
+                             </div>
+                              <div class="mb-3"> <label id="txtIR" class="form-label">IR: </label> 
+                            </div>
+                             <div class="mb-3"> <label id="txtSalNeto" class="form-label">Salario Neto: </label>
+                             </div>
+                             </form>
+                             </div>
         </div>
 
     </div>
